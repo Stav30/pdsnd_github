@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+This project was created on 3/27/20 README.md
 
 ### Project Title
-Replace the Project Title
+Udacity Programming for Data Science Capstone Project
 
 ### Description
-Describe what your project is about and what it does
+This is the bikeshare.py python coded project in which I created user prompts so the user can decide on which filters(city,day,month)they would like to apply on the data to receive the filter specific statistics on.
 
 ### Files used
-Include the files used
+bikeshare.py , chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The data used was provided by Motivate.
 
