@@ -181,7 +181,7 @@ def trip_duration_stats(df,city):
     m,s = divmod(total_duration, 60)
     h,m = divmod(m,60)
     d, h = divmod(h, 24)
-    print('total travel time in units: ',"d = ", d "h = ", h , "m = ", m , "s = ", s)
+    print('total travel time in units: ',"d = ", d, "h = ", h , "m = ", m , "s = ", s)
 
     # display mean travel time
     mean_duration = df['Trip Duration'].mean()
