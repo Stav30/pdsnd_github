@@ -176,9 +176,20 @@ def trip_duration_stats(df,city):
     # display total travel time
     total_duration = df['Trip Duration'].sum()
     print('total travel time : ', total_duration)
+    #display total travel time in hours, min, sec
+    #total_duration is the seconds unit
+    m,s = divmod(total_duration, 60)
+    h,m = divmod(m,60)
+    print('total travel time in units: ',"h = ", h , "m = ", m , "s = ", s)
+
     # display mean travel time
     mean_duration = df['Trip Duration'].mean()
     print('the mean travel time was about: ', mean_duration)
+    # display mean travel time in hours, min, sec
+    #mean_duration is the seconds unit
+    m,s = divmod(mean_duration, 60)
+    h,m = divmod(m,60)
+    print('mean travel time in units: ',"h = ", h , "m = ", m , "s = ", s )
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
